@@ -9,4 +9,8 @@
     - Orchestratoor-worker
     - Evaluator-optimizer
 ## Day 3: Calling Multiple AI Providers/Models and Judging
- 
+
+
+# Notes
+- For OpenAI API I have used cloudflare workers AI
+
