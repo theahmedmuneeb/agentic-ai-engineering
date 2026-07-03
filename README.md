@@ -8,4 +8,5 @@
     - Parallelism
     - Orchestratoor-worker
     - Evaluator-optimizer
+## Day 3: Calling Multiple AI Providers/Models and Judging
  

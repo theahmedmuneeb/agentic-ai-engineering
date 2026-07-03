@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 openai = OpenAI(base_url=os.getenv("OPENAI_BASE_URL"), api_key=os.getenv("OPENAI_API_KEY"))
-model=os.getenv("OPENAI_MODEL")
+model="@cf/mistralai/mistral-small-3.1-24b-instruct"
 
 # Generate Business Field
 messages = [
