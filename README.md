@@ -9,6 +9,8 @@
     - Orchestratoor-worker
     - Evaluator-optimizer
 ## Day 3: Calling Multiple AI Providers/Models and Judging
+## Day 4: Agent Loop with Tools and Memory
+- project: personal website chatbot
 
 
 # Notes
