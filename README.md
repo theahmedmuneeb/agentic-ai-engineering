@@ -11,6 +11,8 @@
 ## Day 3: Calling Multiple AI Providers/Models and Judging
 ## Day 4: Agent Loop with Tools and Memory
 - project: personal website chatbot
+## Day 5: Deploy the agent to Hugging Face Spaces
+- [View Demo](https://4div-personal-website-chatbot.hf.space/)
 
 
 # Notes

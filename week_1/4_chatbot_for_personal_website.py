@@ -6,23 +6,32 @@ from pypdf import PdfReader
 import csv
 import json
 import resend
+from pathlib import Path
 
 load_dotenv()
 
+BASE_DIR = Path(__file__).resolve().parent
+ASSETS_DIR = BASE_DIR / "assets"
+
 openai = OpenAI(
-    base_url=os.getenv("OPENAI_BASE_URL"), api_key=os.getenv("OPENAI_API_KEY")
+    base_url=os.getenv("OPENAI_BASE_URL"),
+    api_key=os.getenv("OPENAI_API_KEY"),
+    timeout=60,
 )
-model = "@cf/moonshotai/kimi-k2.6"
+model = os.getenv("OPENAI_MODEL")
+
+print("Base URL:", os.getenv("OPENAI_BASE_URL"))
+print("API Key Exists:", bool(os.getenv("OPENAI_API_KEY")))
 
 resend.api_key = os.getenv("RESEND_API_KEY")
 
-profile_pdf_reader = PdfReader("week 1/assets/profile.pdf")
+profile_pdf_reader = PdfReader(ASSETS_DIR / "profile.pdf")
 
 profile_details = ""
 for page in profile_pdf_reader.pages:
     profile_details += page.extract_text() + "\n"
 
-with open("week 1/assets/details.txt", "r", encoding="utf-8") as file:
+with open(ASSETS_DIR / "details.txt", "r", encoding="utf-8") as file:
     additional_profile_details = file.read()
 
 system_prompt = f"""You are an AI chatbot for a personal portfolio website for a person. You have to reply to the conversations/questions on his behalf. No extra huge content or descriptions, keep short and concise. Dont answer bindly. Only answer from details provided and you can say "I dont know if you dont have the context. Use a natural tone not like a bot and only answer related to that person. You are not that person you are actually an assistant of them." 
@@ -96,7 +105,7 @@ tools = [
 
 
 def handle_subscribe_newsletter(name, email):
-    csv_path = "week 1/assets/newsletter.csv"
+    csv_path = ASSETS_DIR / "newsletter.csv"
     with open(csv_path, "a", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=["name", "email"])
 
@@ -145,7 +154,7 @@ tool_box = {
 def chat(message, history):
     messages = (
         [{"role": "system", "content": system_prompt}]
-        + history
+        + [{"role": msg["role"], "content": msg["content"]} for msg in history]
         + [{"role": "user", "content": message}]
     )
 
