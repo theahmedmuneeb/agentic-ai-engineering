@@ -38,7 +38,7 @@ print(f"Challenges:\n{challenges}")
 messages = [
     {
         "role": "user",
-        "content": f"""You have a business field and some problems in it. Now your job is to propose Agentic AI solutions for those problems. Give me jus final solutions and nothing extra"""
+        "content": """You have a business field and some problems in it. Now your job is to propose Agentic AI solutions for those problems. Give me jus final solutions and nothing extra"""
     }
 ]
 
