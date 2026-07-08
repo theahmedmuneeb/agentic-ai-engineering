@@ -16,7 +16,7 @@
 
 # Week 2
 ## Day 1: OpenAI SDK with SQLite memory and Tools
-- Project: 
+- Project: [Kitchen Agent](https://bawarchi-kitchen-agent.up.railway.app/)
 
 # Notes
 - For OpenAI API I have used cloudflare workers AI
