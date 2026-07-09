@@ -1,7 +1,7 @@
-gradio>=6.19.0
-openai>=2.44.0
-pypdf>=6.14.2
-python-dotenv>=1.2.2
-resend>=2.32.2
-openai-agents>=0.18.0
-nicegui>=3.14.0
+gradio==6.19.0
+openai==2.44.0
+pypdf==6.14.2
+python-dotenv==1.2.2
+resend==2.32.2
+openai-agents==0.18.0
+nicegui==3.14.0
