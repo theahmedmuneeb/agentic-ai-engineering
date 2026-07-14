@@ -5,11 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "daytona-sdk>=0.196.0",
     "gradio>=6.19.0",
     "nicegui>=3.14.0",
     "openai>=2.44.0",
-    "openai-agents>=0.18.0",
+    "openai-agents[daytona]>=0.18.0",
     "pypdf>=6.14.2",
     "python-dotenv>=1.2.2",
     "resend>=2.32.2",
+    "textual>=8.2.8",
 ]

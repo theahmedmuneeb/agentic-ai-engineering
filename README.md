@@ -17,8 +17,11 @@
 # Week 2
 ## Day 1: OpenAI SDK with SQLite memory and Tools
 - Project: [Kitchen Agent](https://bawarchi-kitchen-agent.up.railway.app/)
-## Day 2: Orchestration in OpenAI SDK
+## Day 2: Orchestration in OpenAI SDK and Handoffs
 - Project: [Project Manager](https://project-manager-12.up.railway.app/)
+## Day 3: Structured Outputs, Guardrails and Sandboxing
+## Day 4, 5: Deep Research Agent
+- Project: [Research Agent](https://research-agent-12.up.railway.app/)
 
 # Notes
 - For OpenAI API I have used cloudflare workers AI
