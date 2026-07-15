@@ -1,0 +1,25 @@
+research_task:
+  description: >
+    Conduct thorough deep research on {topic}. Find the latest information, key insights, statistics and reliable sources related to the topic. The current year is {current_year}.
+  expected_output: >
+    A well-organized research report in Markdown with key findings, source links and supporting evidence.
+  agent: researcher
+
+writing_task:
+  description: >
+    Write a high-quality blog post based on the research provided. Make the article engaging, informative and easy to read using proper Markdown formatting. There should be no extra content or irrelevant information. You just have to write the article and based on the research provided. The topic is {topic}.
+  expected_output: >
+    A complete Markdown blog post with a title, introduction, headings and conclusion.
+  agent: writer
+  context:
+    - research_task
+  output_file: article.md
+
+publishing_task:
+  description: >
+    Review and optimize the blog post for publication. Generate SEO metadata, relevant tags, a featured image and publish the article using the tool provided to publish. Publish proper final markdown with no extra or irrelevant content. Use the tools provided to generate an image and then use the publishing tool to publish the article. The original topic is {topic}. You can change the details a little bit like title, headings and content to make it more engaging and SEO-friendly. Also make sure to humanize the content and make it more engaging so it doesn't sound like AI generated.
+  expected_output: >
+    The published article URL. No description or extra content just the final url and in case of any error, return the error message.
+  agent: publisher
+  context:
+    - writing_task

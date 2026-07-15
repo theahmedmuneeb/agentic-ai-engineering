@@ -23,6 +23,12 @@
 ## Day 4, 5: Deep Research Agent
 - Project: [Research Agent](https://research-agent-12.up.railway.app/)
 
+# Week 3
+## Day 1: Introduction to CrewAI core concepts
+## Day 2: Creating agents with Context and Tools
+## Day 3: Creating agents with Custom Tools and Memory
+- Project: AI Blog Post Publisher Agent.
+
 # Notes
 - For OpenAI API I have used cloudflare workers AI
 
