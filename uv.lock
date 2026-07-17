@@ -18,6 +18,7 @@ name = "agentic-ai-engineering-course"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "daytona" },
     { name = "daytona-sdk" },
     { name = "gradio" },
     { name = "nicegui" },
@@ -31,6 +32,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "daytona", specifier = ">=0.196.0" },
     { name = "daytona-sdk", specifier = ">=0.196.0" },
     { name = "gradio", specifier = ">=6.19.0" },
     { name = "nicegui", specifier = ">=3.14.0" },

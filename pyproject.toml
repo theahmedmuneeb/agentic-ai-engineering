@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "daytona>=0.196.0",
     "daytona-sdk>=0.196.0",
     "gradio>=6.19.0",
     "nicegui>=3.14.0",

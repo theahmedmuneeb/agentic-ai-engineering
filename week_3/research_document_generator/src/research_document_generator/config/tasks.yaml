@@ -1,0 +1,27 @@
+research_task:
+  description: >
+    Conduct thorough deep research on the Following Topic:
+    {topic}
+
+    Find the latest information, key insights, statistics and reliable sources related to the topic. Include images, charts or any other relevant visual elements to support the research findings. Provide a well-organized research report with key findings and supporting evidence. The current year is {current_year}. Dont include date in responses if not needed. This is only for context.
+  expected_output: >
+    A well-organized research report with key findings and supporting evidence.
+  # agent: researcher
+
+pdf_task:
+  description: >
+    Create a visually appealing and informative PDF document based on the research, highlighting key insights and recommendations. You can include images, charts or any other relevant visual elements to make the PDF engaging and informative.
+  expected_output: >
+    A PDF file successfully generated and saved using the Execute Python tool.
+  # agent: pdf_agent
+  context:
+    - research_task
+
+ppt_task:
+  description: >
+    Create a visually appealing and informative presentation (ppt) based on the research, highlighting key insights and recommendations. You can include images, charts or any other relevant visual elements to make the presentation engaging and informative.
+  expected_output: >
+    A PPT file successfully generated and saved using the Execute Python tool.
+  # agent: ppt_agent
+  context:
+    - research_task

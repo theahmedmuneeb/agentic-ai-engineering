@@ -1,0 +1,29 @@
+[project]
+name = "research_document_generator"
+version = "0.1.0"
+description = "research_document_generator using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai-tools[mcp]>=1.15.2",
+    "crewai[litellm,tools]>=1.15.2,<2.0.0",
+    "daytona>=0.198.0",
+    "exa-py>=2.16.0",
+    "mcp>=1.26.0",
+    "openai-agents>=0.18.2",
+]
+
+[project.scripts]
+research_document_generator = "research_document_generator.main:run"
+run_crew = "research_document_generator.main:run"
+train = "research_document_generator.main:train"
+replay = "research_document_generator.main:replay"
+test = "research_document_generator.main:test"
+run_with_trigger = "research_document_generator.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

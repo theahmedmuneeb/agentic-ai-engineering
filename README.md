@@ -28,6 +28,8 @@
 ## Day 2: Creating agents with Context and Tools
 ## Day 3: Creating agents with Custom Tools and Memory
 - Project: AI Blog Post Publisher Agent.
+## Day 4,5: MCP, Sandboxing and conditional Task Execution
+- Project: AI Research agent with conditional PDF/PPT generation
 
 # Notes
 - For OpenAI API I have used cloudflare workers AI
