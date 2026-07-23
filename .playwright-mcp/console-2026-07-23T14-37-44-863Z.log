@@ -1,0 +1,3 @@
+[    3592ms] [WARNING] useTranslation: DISMISS is not available @ https://duckduckgo.com/dist/wpm.main.11bd128fd227c9bc4049.js:0
+[    3704ms] [WARNING] useTranslation: DISMISS is not available @ https://duckduckgo.com/dist/wpm.main.11bd128fd227c9bc4049.js:0
+[    4440ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://external-content.duckduckgo.com/ip3/weather.gov.pk.ico:0

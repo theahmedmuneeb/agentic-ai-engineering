@@ -1,0 +1,540 @@
+- generic [active] [ref=f2e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f2e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f2e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-PK
+  - generic [ref=f2e8]:
+    - search [ref=f2e9]:
+      - generic [ref=f2e11]:
+        - link "Go to Google Home" [ref=f2e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQPAgI
+        - generic [ref=f2e21]:
+          - generic [ref=f2e22]:
+            - combobox "Search" [ref=f2e25]: weather in Islamabad weather in Islamabad
+            - generic [ref=f2e26]:
+              - button "Clear" [ref=f2e28] [cursor=pointer]
+              - generic [ref=f2e33]:
+                - button "Search by voice" [ref=f2e34] [cursor=pointer]
+                - button "Search by image" [ref=f2e37] [cursor=pointer]
+          - button "Search" [ref=f2e40] [cursor=pointer]
+    - generic [ref=f2e45]:
+      - button "Settings" [ref=f2e47] [cursor=pointer]
+      - button "Share" [ref=f2e53] [cursor=pointer]
+      - generic [ref=f2e59]:
+        - button "Google apps" [ref=f2e61] [cursor=pointer]
+        - link "Sign in" [ref=f2e66] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dweather%2Bin%2BIslamabad%26sei%3DBydiaqiJEZSb0PEPwIbB-Q8&ec=futura_srp_og_si_72236_p
+  - generic [ref=f2e68]:
+    - navigation [ref=f2e74]:
+      - generic [ref=f2e80]:
+        - list [ref=f2e81]:
+          - listitem [ref=f2e82]:
+            - link "AI Mode" [ref=f2e85] [cursor=pointer]:
+              - /url: /search?q=weather+in+Islamabad&sca_esv=0aa30729732e2704&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQzcgMAXI6mDl4aLs1WJDXE8SVTb-uBcPPJClt96u4kma1zWfKWexNEyPgHiy4RGc85CFwzU5aHHWHgZjRzEWzNJKu2DBneeAFStc5RqbeyR39dw9lF4_9CV8BoZf598niEF6O2HjmFMtNpDAiyQCvEDuiYar&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ2J8OegQIEhAD
+          - listitem [ref=f2e89]:
+            - link "All" [disabled] [ref=f2e90]
+          - listitem [ref=f2e93]:
+            - link "News" [ref=f2e94] [cursor=pointer]:
+              - /url: /search?sca_esv=0aa30729732e2704&q=weather+in+Islamabad&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQzcgMAXI6mDl4aLs1WJDXE8SVTb-uBcPPJClt96u4kma1zWfKWexNEyPgHiy4RGc85CFwzU5aHHWHgZjRzEWzNJKu2DBneeAFStc5RqbeyR39dw9lF4_9CV8BoZf598niEF6O2HjmFMtNpDAiyQCvEDuiYar&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ0pQJegQIGBAB
+          - listitem [ref=f2e97]:
+            - link "Images" [ref=f2e98] [cursor=pointer]:
+              - /url: /search?sca_esv=0aa30729732e2704&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQzcgMAXI6mDl4aLs1WJDXE8SVTb-uBcPPJClt96u4kma1zWfKWexNEyPgHiy4RGc85CFwzU5aHHWHgZjRzEWzNJKu2DBneeAFStc5RqbeyR39dw9lF4_9CV8BoZf598niEF6O2HjmFMtNpDAiyQCvEDuiYar&q=weather+in+Islamabad&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQtKgLegQIFxAB
+          - listitem [ref=f2e101]:
+            - link "Forums" [ref=f2e102] [cursor=pointer]:
+              - /url: /search?sca_esv=0aa30729732e2704&udm=18&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQzcgMAXI6mDl4aLs1WJDXE8SVTb-uBcPPJClt96u4kma1zWfKWexNEyPgHiy4RGc85CFwzU5aHHWHgZjRzEWzNJKu2DBneeAFStc5RqbeyR39dw9lF4_9CV8BoZf598niEF6O2HjmFMtNpDAiyQCvEDuiYar&q=weather+in+Islamabad&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQs6gLegQIFRAB
+          - listitem [ref=f2e105]:
+            - link "Videos" [ref=f2e106] [cursor=pointer]:
+              - /url: /search?sca_esv=0aa30729732e2704&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQzcgMAXI6mDl4aLs1WJDXE8SVTb-uBcPPJClt96u4kma1zWfKWexNEyPgHiy4RGc85CFwzU5aHHWHgZjRzEWzNJKu2DBneeAFStc5RqbeyR39dw9lF4_9CV8BoZf598niEF6O2HjmFMtNpDAiyQCvEDuiYar&q=weather+in+Islamabad&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQtKgLegQIFhAB
+          - listitem [ref=f2e109]:
+            - link "Web" [ref=f2e110] [cursor=pointer]:
+              - /url: /search?sca_esv=0aa30729732e2704&udm=web&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQzcgMAXI6mDl4aLs1WJDXE8SVTb-uBcPPJClt96u4kma1zWfKWexNEyPgHiy4RGc85CFwzU5aHHWHgZjRzEWzNJKu2DBneeAFStc5RqbeyR39dw9lF4_9CV8BoZf598niEF6O2HjmFMtNpDAiyQCvEDuiYar&q=weather+in+Islamabad&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQs6gLegQIFBAB
+          - listitem [ref=f2e113]:
+            - button [ref=f2e114] [cursor=pointer]:
+              - generic "More filters" [ref=f2e115]: More
+        - button "Tools" [ref=f2e122] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f2e129]
+    - main [ref=f2e135]:
+      - generic [ref=f2e141]:
+        - heading [level=2] [ref=f2e142]
+        - generic [ref=f2e151]:
+          - text: ∙
+          - button "Choose area" [ref=f2e152] [cursor=pointer]
+        - button "How location is used" [ref=f2e155] [cursor=pointer]
+      - generic [ref=f2e162]:
+        - generic [ref=f2e167]:
+          - heading "Weather result" [level=2] [ref=f2e168]
+          - generic [ref=f2e169]:
+            - generic [ref=f2e170]:
+              - img "Clear with periodic clouds" [ref=f2e172]
+              - heading "26 °Celsius °Fahrenheit" [level=3] [ref=f2e173]:
+                - generic [ref=f2e174]:
+                  - generic [ref=f2e175]: "26"
+                  - generic [ref=f2e176]:
+                    - button "°Celsius" [disabled] [ref=f2e177]: °C
+                    - button "°Fahrenheit" [ref=f2e179] [cursor=pointer]: °F
+              - generic [ref=f2e180]:
+                - generic [ref=f2e181]: "Precipitation: 0%"
+                - generic [ref=f2e182]: "Humidity: 81%"
+                - generic [ref=f2e183]:
+                  - text: "Wind:"
+                  - generic [ref=f2e184]: 3 km/h
+            - heading "Weather Thursday 7:00 pm Clear with periodic clouds" [level=3] [ref=f2e186]:
+              - generic [ref=f2e187]: Weather
+              - generic [ref=f2e188]: Thursday 7:00 pm
+              - generic [ref=f2e189]: Clear with periodic clouds
+            - generic [ref=f2e190]:
+              - tablist [ref=f2e191]:
+                - tab "Temperature" [selected] [ref=f2e192]
+                - tab "Precipitation" [ref=f2e194] [cursor=pointer]
+                - tab "Wind" [ref=f2e196] [cursor=pointer]
+              - generic [ref=f2e198]:
+                - img [ref=f2e199] [cursor=pointer]:
+                  - generic [ref=f2e200]: "26"
+                  - generic [ref=f2e201]: "26"
+                  - generic [ref=f2e202]: "25"
+                  - generic [ref=f2e203]: "24"
+                  - generic [ref=f2e204]: "25"
+                  - generic [ref=f2e205]: "27"
+                  - generic [ref=f2e206]: "28"
+                  - generic [ref=f2e207]: "28"
+                  - generic [ref=f2e208]: "27"
+                  - generic [ref=f2e209]: "27"
+                  - generic [ref=f2e210]: "26"
+                  - generic [ref=f2e211]: "26"
+                  - generic [ref=f2e212]: "26"
+                  - generic [ref=f2e213]: "26"
+                  - generic [ref=f2e214]: "27"
+                  - generic [ref=f2e215]: "27"
+                  - generic [ref=f2e216]: "27"
+                  - generic [ref=f2e217]: "26"
+                  - generic [ref=f2e218]: "26"
+                  - generic [ref=f2e219]: "25"
+                  - generic [ref=f2e220]: "25"
+                  - generic [ref=f2e221]: "27"
+                  - generic [ref=f2e222]: "29"
+                  - generic [ref=f2e223]: "29"
+                  - generic [ref=f2e224]: "28"
+                  - generic [ref=f2e225]: "27"
+                  - generic [ref=f2e226]: "27"
+                  - generic [ref=f2e227]: "26"
+                  - generic [ref=f2e228]: "27"
+                  - generic [ref=f2e229]: "29"
+                  - generic [ref=f2e230]: "31"
+                  - generic [ref=f2e231]: "31"
+                  - generic [ref=f2e232]: "29"
+                  - generic [ref=f2e233]: "28"
+                  - generic [ref=f2e234]: "27"
+                  - generic [ref=f2e235]: "26"
+                  - generic [ref=f2e236]: "26"
+                  - generic [ref=f2e237]: "28"
+                  - generic [ref=f2e238]: "30"
+                  - generic [ref=f2e239]: "30"
+                  - generic [ref=f2e240]: "28"
+                  - generic [ref=f2e241]: "27"
+                  - generic [ref=f2e242]: "26"
+                  - generic [ref=f2e243]: "24"
+                  - generic [ref=f2e244]: "24"
+                  - generic [ref=f2e245]: "25"
+                  - generic [ref=f2e246]: "27"
+                  - generic [ref=f2e247]: "28"
+                  - generic [ref=f2e248]: "27"
+                  - generic [ref=f2e249]: "26"
+                  - generic [ref=f2e250]: "25"
+                  - generic [ref=f2e251]: "24"
+                  - generic [ref=f2e252]: "25"
+                  - generic [ref=f2e253]: "27"
+                  - generic [ref=f2e254]: "29"
+                  - generic [ref=f2e255]: "30"
+                  - generic [ref=f2e256]: "28"
+                  - generic [ref=f2e257]: "27"
+                  - generic [ref=f2e258]: "26"
+                  - generic [ref=f2e259]: "25"
+                  - generic [ref=f2e260]: "26"
+                  - generic [ref=f2e261]: "28"
+                  - generic [ref=f2e262]: "30"
+                  - generic [ref=f2e263]: "31"
+                  - generic [ref=f2e264]: "29"
+                  - generic [ref=f2e265]: "27"
+                  - generic [ref=f2e266]: "26"
+                  - generic [ref=f2e267]: "25"
+                  - generic [ref=f2e268]: "26"
+                  - generic [ref=f2e269]: "28"
+                  - generic [ref=f2e270]: "30"
+                  - generic [ref=f2e271]: "31"
+                  - generic [ref=f2e272]: "29"
+                  - generic [ref=f2e273]: "27"
+                  - generic [ref=f2e274]: "27"
+                  - generic [ref=f2e275]: "26"
+                  - generic [ref=f2e276]: "27"
+                  - generic [ref=f2e277]: "27"
+                  - generic [ref=f2e278]: "30"
+                  - generic [ref=f2e279]: "31"
+                  - generic [ref=f2e280]: "29"
+                  - generic [ref=f2e281]: "27"
+                - generic [ref=f2e284]:
+                  - generic [ref=f2e285]: 8 pm
+                  - generic [ref=f2e286]: 11 pm
+                  - generic [ref=f2e287]: 2 am
+                  - generic [ref=f2e288]: 5 am
+                  - generic [ref=f2e289]: 8 am
+                  - generic [ref=f2e290]: 11 am
+                  - generic [ref=f2e291]: 2 pm
+                  - generic [ref=f2e292]: 5 pm
+                  - generic [ref=f2e293]: 8 pm
+                  - generic [ref=f2e294]: 11 pm
+                  - generic [ref=f2e295]: 2 am
+                  - generic [ref=f2e296]: 5 am
+                  - generic [ref=f2e297]: 8 am
+                  - generic [ref=f2e298]: 11 am
+                  - generic [ref=f2e299]: 2 pm
+                  - generic [ref=f2e300]: 5 pm
+                  - generic [ref=f2e301]: 8 pm
+                  - generic [ref=f2e302]: 11 pm
+                  - generic [ref=f2e303]: 2 am
+                  - generic [ref=f2e304]: 5 am
+                  - generic [ref=f2e305]: 8 am
+                  - generic [ref=f2e306]: 11 am
+                  - generic [ref=f2e307]: 2 pm
+                  - generic [ref=f2e308]: 5 pm
+                  - generic [ref=f2e309]: 8 pm
+                  - generic [ref=f2e310]: 11 pm
+                  - generic [ref=f2e311]: 2 am
+                  - generic [ref=f2e312]: 5 am
+                  - generic [ref=f2e313]: 8 am
+                  - generic [ref=f2e314]: 11 am
+                  - generic [ref=f2e315]: 2 pm
+                  - generic [ref=f2e316]: 5 pm
+                  - generic [ref=f2e317]: 8 pm
+                  - generic [ref=f2e318]: 11 pm
+                  - generic [ref=f2e319]: 2 am
+                  - generic [ref=f2e320]: 5 am
+                  - generic [ref=f2e321]: 8 am
+                  - generic [ref=f2e322]: 11 am
+                  - generic [ref=f2e323]: 2 pm
+                  - generic [ref=f2e324]: 5 pm
+                  - generic [ref=f2e325]: 8 pm
+                  - generic [ref=f2e326]: 11 pm
+                  - generic [ref=f2e327]: 2 am
+                  - generic [ref=f2e328]: 5 am
+                  - generic [ref=f2e329]: 8 am
+                  - generic [ref=f2e330]: 11 am
+                  - generic [ref=f2e331]: 2 pm
+                  - generic [ref=f2e332]: 5 pm
+                  - generic [ref=f2e333]: 8 pm
+                  - generic [ref=f2e334]: 11 pm
+                  - generic [ref=f2e335]: 2 am
+                  - generic [ref=f2e336]: 5 am
+                  - generic [ref=f2e337]: 8 am
+                  - generic [ref=f2e338]: 11 am
+                  - generic [ref=f2e339]: 2 pm
+                  - generic [ref=f2e340]: 5 pm
+                  - generic [ref=f2e341]: 8 pm
+                  - generic [ref=f2e342]: 11 pm
+                  - generic [ref=f2e343]: 2 am
+                  - generic [ref=f2e344]: 5 am
+                  - generic [ref=f2e345]: 8 am
+                  - generic [ref=f2e346]: 11 am
+                  - generic [ref=f2e347]: 2 pm
+                  - generic [ref=f2e348]: 5 pm
+                  - generic [ref=f2e349]: 8 pm
+                  - generic [ref=f2e350]: 11 pm
+                  - generic [ref=f2e351]: 2 am
+                  - generic [ref=f2e352]: 5 am
+                  - generic [ref=f2e353]: 8 am
+                  - generic [ref=f2e354]: 11 am
+                  - generic [ref=f2e355]: 2 pm
+                  - generic [ref=f2e356]: 5 pm
+                  - generic [ref=f2e357]: 8 pm
+                  - generic [ref=f2e358]: 11 pm
+                  - generic [ref=f2e359]: 2 am
+                  - generic [ref=f2e360]: 5 am
+                  - generic [ref=f2e361]: 8 am
+                  - generic [ref=f2e362]: 11 am
+                  - generic [ref=f2e363]: 2 pm
+                  - generic [ref=f2e364]: 5 pm
+                  - generic [ref=f2e365]: 8 pm
+                  - generic [ref=f2e366]: 11 pm
+              - generic [ref=f2e368] [cursor=pointer]:
+                - button "Thursday Light rain 28 ° 24 °" [ref=f2e369]:
+                  - generic "Thursday" [ref=f2e370]: Thu
+                  - img "Light rain" [ref=f2e373]
+                  - generic [ref=f2e374]:
+                    - generic [ref=f2e375]: 28 °
+                    - generic [ref=f2e376]: 24 °
+                - button "Friday Light rain 28 ° 25 °" [ref=f2e377]:
+                  - generic "Friday" [ref=f2e378]: Fri
+                  - img "Light rain" [ref=f2e381]
+                  - generic [ref=f2e382]:
+                    - generic [ref=f2e383]: 28 °
+                    - generic [ref=f2e384]: 25 °
+                - button "Saturday Scattered thunderstorms 27 ° 24 °" [ref=f2e385]:
+                  - generic "Saturday" [ref=f2e386]: Sat
+                  - img "Scattered thunderstorms" [ref=f2e389]
+                  - generic [ref=f2e390]:
+                    - generic [ref=f2e391]: 27 °
+                    - generic [ref=f2e392]: 24 °
+                - button "Sunday Heavy thunderstorm 29 ° 25 °" [ref=f2e393]:
+                  - generic "Sunday" [ref=f2e394]: Sun
+                  - img "Heavy thunderstorm" [ref=f2e397]
+                  - generic [ref=f2e398]:
+                    - generic [ref=f2e399]: 29 °
+                    - generic [ref=f2e400]: 25 °
+                - button "Monday Thundershower 31 ° 25 °" [ref=f2e401]:
+                  - generic "Monday" [ref=f2e402]: Mon
+                  - img "Thundershower" [ref=f2e405]
+                  - generic [ref=f2e406]:
+                    - generic [ref=f2e407]: 31 °
+                    - generic [ref=f2e408]: 25 °
+                - button "Tuesday Light rain 30 ° 24 °" [ref=f2e409]:
+                  - generic "Tuesday" [ref=f2e410]: Tue
+                  - img "Light rain" [ref=f2e413]
+                  - generic [ref=f2e414]:
+                    - generic [ref=f2e415]: 30 °
+                    - generic [ref=f2e416]: 24 °
+                - button "Wednesday Light rain 28 ° 24 °" [ref=f2e417]:
+                  - generic "Wednesday" [ref=f2e418]: Wed
+                  - img "Light rain" [ref=f2e421]
+                  - generic [ref=f2e422]:
+                    - generic [ref=f2e423]: 28 °
+                    - generic [ref=f2e424]: 24 °
+                - button "Thursday Light rain 30 ° 25 °" [ref=f2e425]:
+                  - generic "Thursday" [ref=f2e426]: Thu
+                  - img "Light rain" [ref=f2e429]
+                  - generic [ref=f2e430]:
+                    - generic [ref=f2e431]: 30 °
+                    - generic [ref=f2e432]: 25 °
+            - generic [ref=f2e433]:
+              - generic [ref=f2e434]: Excessive Heat
+              - generic [ref=f2e435]: Islamabad
+              - generic [ref=f2e436]: 4 hours ago
+              - paragraph [ref=f2e437]: Severe heat is expected in this area.
+              - link "More info" [ref=f2e439] [cursor=pointer]:
+                - /url: https://www.google.com/search?q=Excessive%20Heat&hl=en-GB&stick=H4sIAAAAAAAAAONQUeLVT9c3NKwySU8vLM5NecSYyy3w8sc9YamUXWcbq-O5NLhQFSiJc4nqJ-fn5KQml2Tm5-mnZBYnFpekFhULMEpxcXHo5-obpGSkmC5iVAl3dQzxcA2K9_bzD_dxdXF3jQ92DQrzdHaNTy8v1i1OTSxKzuBZxMrnWpGcWlycWZaq4JGaWAIA3Gapd5IAAAA
+          - generic [ref=f2e443]:
+            - link "Google Weather" [ref=f2e444] [cursor=pointer]:
+              - /url: https://support.google.com/websearch/answer/13687874
+            - generic [ref=f2e445]: •
+            - group [ref=f2e446]:
+              - button "Feedback" [ref=f2e447] [cursor=pointer]
+        - generic [ref=f2e452]:
+          - heading "Web results" [level=2] [ref=f2e453]
+          - generic [ref=f2e454]:
+            - generic [ref=f2e457]:
+              - link "Islamabad, Islamabad, Pakistan Weather Forecast AccuWeather https://www.accuweather.com › islamabad › weather-fo..." [ref=f2e459] [cursor=pointer]:
+                - /url: https://www.accuweather.com/en/pk/islamabad/258278/weather-forecast/258278
+                - heading "Islamabad, Islamabad, Pakistan Weather Forecast" [level=3] [ref=f2e460]
+                - generic [ref=f2e466]:
+                  - generic [ref=f2e467]: AccuWeather
+                  - generic [ref=f2e469]: https://www.accuweather.com › islamabad › weather-fo...
+              - button "About this result" [ref=f2e473] [cursor=pointer]
+            - generic [ref=f2e480]:
+              - emphasis [ref=f2e481]: Today 7/23 87° 74°
+              - text: "Times of clouds and sun Night: A late-night t-storm or two 96% Fri 7/24 88° 75° A strong morning thunderstorm A thunderstorm late 55%"
+        - generic [ref=f2e485]:
+          - generic [ref=f2e488]:
+            - link "Islamabad, Pakistan 14 day weather forecast Time and Date https://www.timeanddate.com › ... › Pakistan › Islamabad" [ref=f2e490] [cursor=pointer]:
+              - /url: https://www.timeanddate.com/weather/pakistan/islamabad/ext
+              - heading "Islamabad, Pakistan 14 day weather forecast" [level=3] [ref=f2e491]
+              - generic [ref=f2e497]:
+                - generic [ref=f2e498]: Time and Date
+                - generic [ref=f2e500]: https://www.timeanddate.com › ... › Pakistan › Islamabad
+            - button "About this result" [ref=f2e504] [cursor=pointer]
+          - generic [ref=f2e510]:
+            - generic [ref=f2e511]:
+              - emphasis [ref=f2e512]: Islamabad Extended Forecast
+              - text: "with high and low temperatures ... A few tstorms. Cloudy. Feels Like: 90 °F. Humidity: 68%. Precipitation: Rain: 0.15 Snow ..."
+            - link "Read more" [ref=f2e513] [cursor=pointer]:
+              - /url: https://www.timeanddate.com/weather/pakistan/islamabad/ext#:~:text=Islamabad%20Extended%20Forecast%20with%20high,and%20low%20temperatures&text=A%20few%20tstorms.%20Cloudy.,Precipitation%3A%20Rain%3A%200.15%20Snow%3A%200
+        - generic [ref=f2e517]:
+          - generic [ref=f2e520]:
+            - link "Islamabad - BBC Weather BBC https://www.bbc.com › weather" [ref=f2e522] [cursor=pointer]:
+              - /url: https://www.bbc.com/weather/1176615
+              - heading "Islamabad - BBC Weather" [level=3] [ref=f2e523]
+              - generic [ref=f2e529]:
+                - generic [ref=f2e530]: BBC
+                - generic [ref=f2e532]: https://www.bbc.com › weather
+            - button "About this result" [ref=f2e536] [cursor=pointer]
+          - generic [ref=f2e543]:
+            - text: Weather warnings issued Today ,
+            - emphasis [ref=f2e544]: Thundery showers and a gentle breeze Friday
+            - text: . Light rain and a gentle breeze
+        - generic [ref=f2e548]:
+          - generic [ref=f2e551]:
+            - link "Weather forecast and conditions for Islamabad ... The Weather Channel https://weather.com › en-PK › city › islamabad › today" [ref=f2e553] [cursor=pointer]:
+              - /url: https://weather.com/en-PK/pk/islamabad-capital-territory/city/islamabad/today
+              - heading "Weather forecast and conditions for Islamabad ..." [level=3] [ref=f2e554]
+              - generic [ref=f2e560]:
+                - generic [ref=f2e561]: The Weather Channel
+                - generic [ref=f2e563]: https://weather.com › en-PK › city › islamabad › today
+            - button "About this result" [ref=f2e567] [cursor=pointer]
+          - generic [ref=f2e573]:
+            - generic [ref=f2e574]:
+              - text: Today's outlook.
+              - emphasis [ref=f2e575]: Today's high temperature will be nearly the same as yesterday's
+              - text: . 05:12. Sunrise. Now. 79° · 12:00. 80° · 13:00. 80°.
+            - link "Read more" [ref=f2e576] [cursor=pointer]:
+              - /url: https://weather.com/en-PK/pk/islamabad-capital-territory/city/islamabad/today#:~:text=Today's%20outlook,80%C2%B0
+        - generic [ref=f2e580]:
+          - generic [ref=f2e583]:
+            - link "Yr - Islamabad - Hourly weather forecast Yr https://www.yr.no › forecast › hourly-table › Pakistan" [ref=f2e585] [cursor=pointer]:
+              - /url: https://www.yr.no/en/forecast/hourly-table/2-1176615/Pakistan/Islamabad/Islamabad?i=4
+              - heading "Yr - Islamabad - Hourly weather forecast" [level=3] [ref=f2e586]
+              - generic [ref=f2e592]:
+                - generic [ref=f2e593]: Yr
+                - generic [ref=f2e595]: https://www.yr.no › forecast › hourly-table › Pakistan
+            - button "About this result" [ref=f2e599] [cursor=pointer]
+          - generic [ref=f2e605]:
+            - generic [ref=f2e606]:
+              - text: Tuesday 28 July ·
+              - emphasis [ref=f2e607]: "Night: clear sky"
+              - text: "· Morning: light rain showers · Afternoon: fair · Evening: fair. Maximum minimum temperature:31°/24°. Precipitation 1.7 mm."
+            - link "Read more" [ref=f2e608] [cursor=pointer]:
+              - /url: https://www.yr.no/en/forecast/hourly-table/2-1176615/Pakistan/Islamabad/Islamabad?i=4#:~:text=Tuesday%2028%20July&text=31%C2%B0%2F24%C2%B0&text=31%C2%B0%2F24%C2%B0&text=31%C2%B0%2F24%C2%B0&text=31%C2%B0%2F24%C2%B0,mm
+        - generic [ref=f2e612]:
+          - generic [ref=f2e615]:
+            - link "Weather - Islamabad - 14-Day Forecast & Rain Ventusky https://www.ventusky.com › islamabad" [ref=f2e617] [cursor=pointer]:
+              - /url: https://www.ventusky.com/islamabad
+              - heading "Weather - Islamabad - 14-Day Forecast & Rain" [level=3] [ref=f2e618]
+              - generic [ref=f2e624]:
+                - generic [ref=f2e625]: Ventusky
+                - generic [ref=f2e627]: https://www.ventusky.com › islamabad
+            - button "About this result" [ref=f2e631] [cursor=pointer]
+          - generic [ref=f2e637]:
+            - generic [ref=f2e638]:
+              - text: Forecast ·
+              - emphasis [ref=f2e639]: Fri mixed with rain showers 29 °C
+              - text: · Sat overcast with light rain 27 °C · Sun overcast 30 °C · Mon partly cloudy 33 °C · Tue partly cloudy 32 °C · Wed
+            - link "Read more" [ref=f2e640] [cursor=pointer]:
+              - /url: https://www.ventusky.com/islamabad#:~:text=Forecast&text=Fri,29%20%C2%B0C&text=Sat,27%20%C2%B0C&text=Sun,30%20%C2%B0C&text=Mon,33%20%C2%B0C&text=Tue,32%20%C2%B0C&text=Wed
+        - generic [ref=f2e644]:
+          - generic [ref=f2e647]:
+            - link "Islamabad, Islāmābād, Pakistan Weather Forecast MSN https://www.msn.com › en-us › in-Islamabad,Islāmābād" [ref=f2e649] [cursor=pointer]:
+              - /url: https://www.msn.com/en-us/weather/forecast/in-Islamabad,Isl%C4%81m%C4%81b%C4%81d
+              - heading "Islamabad, Islāmābād, Pakistan Weather Forecast" [level=3] [ref=f2e650]
+              - generic [ref=f2e656]:
+                - generic [ref=f2e657]: MSN
+                - generic [ref=f2e659]: https://www.msn.com › en-us › in-Islamabad,Islāmābād
+            - button "About this result" [ref=f2e663] [cursor=pointer]
+          - generic [ref=f2e670]:
+            - emphasis [ref=f2e671]: Current weather 5:00 AM Partly sunny 86°F
+            - text: Feels Like 97° Partly sunny Air quality 62 Wind 6 mph Humidity 65% Visibility 2.5 mi Pressure 29.58 in Dew point 73°. ...
+        - generic [ref=f2e675]:
+          - generic [ref=f2e678]:
+            - link "Rawalpindi/Islamabad Weather Facebook · Rawalpindi/Islamabad Weather 85.4K+ followers" [ref=f2e680] [cursor=pointer]:
+              - /url: https://www.facebook.com/twincitiesweather/
+              - heading "Rawalpindi/Islamabad Weather" [level=3] [ref=f2e681]
+              - generic [ref=f2e687]:
+                - generic [ref=f2e688]: Facebook · Rawalpindi/Islamabad Weather
+                - generic [ref=f2e690]: 85.4K+ followers
+            - button "About this result" [ref=f2e694] [cursor=pointer]
+          - generic [ref=f2e701]:
+            - text: Next 24 hrs
+            - emphasis [ref=f2e702]: Clouds & isolated shower
+            - text: . Some light Rain is expected in few areas during next 24 hrs. Weather will be Cloudy & Pleasant, less humid.
+        - generic [ref=f2e706]:
+          - generic [ref=f2e709]:
+            - link "Islamabad, Pakistan 10-Day Weather Forecast Weather Underground https://www.wunderground.com › forecast › islamabad" [ref=f2e711] [cursor=pointer]:
+              - /url: https://www.wunderground.com/forecast/pk/islamabad
+              - heading "Islamabad, Pakistan 10-Day Weather Forecast" [level=3] [ref=f2e712]
+              - generic [ref=f2e718]:
+                - generic [ref=f2e719]: Weather Underground
+                - generic [ref=f2e721]: https://www.wunderground.com › forecast › islamabad
+            - button "About this result" [ref=f2e725] [cursor=pointer]
+          - generic [ref=f2e732]:
+            - emphasis [ref=f2e733]: Islamabad Weather Forecasts
+            - text: . Weather Underground provides local & long-range weather forecasts, weatherreports, maps & tropical weather conditions for the ...
+        - generic [ref=f2e737]:
+          - generic [ref=f2e740]:
+            - link "Islamabad (Pakistan) weather Met Office https://weather.metoffice.gov.uk › forecast › ttgzybxnz" [ref=f2e742] [cursor=pointer]:
+              - /url: https://weather.metoffice.gov.uk/forecast/ttgzybxnz
+              - heading "Islamabad (Pakistan) weather" [level=3] [ref=f2e743]
+              - generic [ref=f2e752]:
+                - generic [ref=f2e753]: Met Office
+                - generic [ref=f2e755]: https://weather.metoffice.gov.uk › forecast › ttgzybxnz
+            - button "About this result" [ref=f2e759] [cursor=pointer]
+          - generic [ref=f2e765]:
+            - generic [ref=f2e766]:
+              - text: Next hour ·
+              - emphasis [ref=f2e767]: Feels like 30°
+              - text: · Rain 40% · Max gust 16mph from SE Max gust 16mph from the southeast. Thursday. 30°C 30 degrees Celsius. Sunny intervals. Feels ...
+            - link "Read more" [ref=f2e768] [cursor=pointer]:
+              - /url: https://weather.metoffice.gov.uk/forecast/ttgzybxnz#:~:text=Next%20hour&text=Feels%20like%2030%C2%B0&text=Rain%2040%25&text=Max%20gust%2016mph%20from%20SE
+      - generic [ref=f2e770]:
+        - generic [ref=f2e775]:
+          - heading "People also search for" [level=2] [ref=f2e777]
+          - generic [ref=f2e779]:
+            - generic [ref=f2e780]:
+              - link "Weather in Islamabad 10 days" [ref=f2e784] [cursor=pointer]:
+                - /url: /search?sca_esv=0aa30729732e2704&q=Weather+in+Islamabad+10+days&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ1QJ6BAglEAE
+              - link "Weather in Islamabad Tomorrow" [ref=f2e798] [cursor=pointer]:
+                - /url: /search?sca_esv=0aa30729732e2704&q=Weather+in+Islamabad+Tomorrow&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ1QJ6BAhBEAE
+              - link "Islamabad weather 30 days" [ref=f2e812] [cursor=pointer]:
+                - /url: /search?sca_esv=0aa30729732e2704&q=Islamabad+weather+30+days&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ1QJ6BAhAEAE
+              - link "Weather Islamabad 15 days" [ref=f2e826] [cursor=pointer]:
+                - /url: /search?sca_esv=0aa30729732e2704&q=Weather+Islamabad+15+days&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ1QJ6BAg_EAE
+            - generic [ref=f2e837]:
+              - link "Weather Rawalpindi" [ref=f2e841] [cursor=pointer]:
+                - /url: /search?sca_esv=0aa30729732e2704&q=Weather+Rawalpindi&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ1QJ6BAg-EAE
+              - link "Murree weather" [ref=f2e855] [cursor=pointer]:
+                - /url: /search?sca_esv=0aa30729732e2704&q=Murree+weather&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ1QJ6BAgyEAE
+              - link "Islamabad weather hourly" [ref=f2e869] [cursor=pointer]:
+                - /url: /search?sca_esv=0aa30729732e2704&q=Islamabad+weather+hourly&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ1QJ6BAguEAE
+              - link "Islamabad weather 90 days" [ref=f2e883] [cursor=pointer]:
+                - /url: /search?sca_esv=0aa30729732e2704&q=Islamabad+weather+90+days&sa=X&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ1QJ6BAgtEAE
+        - navigation [ref=f2e894]:
+          - heading "Page navigation" [level=1] [ref=f2e895]
+          - text: "1"
+          - link "Page 2" [ref=f2e898] [cursor=pointer]:
+            - /url: /search?q=weather+in+Islamabad&sca_esv=0aa30729732e2704&ei=BydiapuDOtHu0PEP0peTsAw&start=10&sa=N&sstk=AU9db-AwdrBi3OAimcp_KuuOA-ZdN_UPKHjnGRMbyfiyNYB6VUaxUIjoEundRLIgBgdIggEtu974UfetVLJMOzpqDllvh8aEjVRaBA&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ8tMDegQIIxAE
+            - text: "2"
+          - link "Page 3" [ref=f2e900] [cursor=pointer]:
+            - /url: /search?q=weather+in+Islamabad&sca_esv=0aa30729732e2704&ei=BydiapuDOtHu0PEP0peTsAw&start=20&sa=N&sstk=AU9db-AwdrBi3OAimcp_KuuOA-ZdN_UPKHjnGRMbyfiyNYB6VUaxUIjoEundRLIgBgdIggEtu974UfetVLJMOzpqDllvh8aEjVRaBA&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ8tMDegQIIxAG
+            - text: "3"
+          - link "Page 4" [ref=f2e902] [cursor=pointer]:
+            - /url: /search?q=weather+in+Islamabad&sca_esv=0aa30729732e2704&ei=BydiapuDOtHu0PEP0peTsAw&start=30&sa=N&sstk=AU9db-AwdrBi3OAimcp_KuuOA-ZdN_UPKHjnGRMbyfiyNYB6VUaxUIjoEundRLIgBgdIggEtu974UfetVLJMOzpqDllvh8aEjVRaBA&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ8tMDegQIIxAI
+            - text: "4"
+          - link "Page 5" [ref=f2e904] [cursor=pointer]:
+            - /url: /search?q=weather+in+Islamabad&sca_esv=0aa30729732e2704&ei=BydiapuDOtHu0PEP0peTsAw&start=40&sa=N&sstk=AU9db-AwdrBi3OAimcp_KuuOA-ZdN_UPKHjnGRMbyfiyNYB6VUaxUIjoEundRLIgBgdIggEtu974UfetVLJMOzpqDllvh8aEjVRaBA&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ8tMDegQIIxAK
+            - text: "5"
+          - link "Page 6" [ref=f2e906] [cursor=pointer]:
+            - /url: /search?q=weather+in+Islamabad&sca_esv=0aa30729732e2704&ei=BydiapuDOtHu0PEP0peTsAw&start=50&sa=N&sstk=AU9db-AwdrBi3OAimcp_KuuOA-ZdN_UPKHjnGRMbyfiyNYB6VUaxUIjoEundRLIgBgdIggEtu974UfetVLJMOzpqDllvh8aEjVRaBA&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ8tMDegQIIxAM
+            - text: "6"
+          - link "Page 7" [ref=f2e908] [cursor=pointer]:
+            - /url: /search?q=weather+in+Islamabad&sca_esv=0aa30729732e2704&ei=BydiapuDOtHu0PEP0peTsAw&start=60&sa=N&sstk=AU9db-AwdrBi3OAimcp_KuuOA-ZdN_UPKHjnGRMbyfiyNYB6VUaxUIjoEundRLIgBgdIggEtu974UfetVLJMOzpqDllvh8aEjVRaBA&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ8tMDegQIIxAO
+            - text: "7"
+          - link "Page 8" [ref=f2e910] [cursor=pointer]:
+            - /url: /search?q=weather+in+Islamabad&sca_esv=0aa30729732e2704&ei=BydiapuDOtHu0PEP0peTsAw&start=70&sa=N&sstk=AU9db-AwdrBi3OAimcp_KuuOA-ZdN_UPKHjnGRMbyfiyNYB6VUaxUIjoEundRLIgBgdIggEtu974UfetVLJMOzpqDllvh8aEjVRaBA&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ8tMDegQIIxAQ
+            - text: "8"
+          - link "Page 9" [ref=f2e912] [cursor=pointer]:
+            - /url: /search?q=weather+in+Islamabad&sca_esv=0aa30729732e2704&ei=BydiapuDOtHu0PEP0peTsAw&start=80&sa=N&sstk=AU9db-AwdrBi3OAimcp_KuuOA-ZdN_UPKHjnGRMbyfiyNYB6VUaxUIjoEundRLIgBgdIggEtu974UfetVLJMOzpqDllvh8aEjVRaBA&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ8tMDegQIIxAS
+            - text: "9"
+          - link "Page 10" [ref=f2e914] [cursor=pointer]:
+            - /url: /search?q=weather+in+Islamabad&sca_esv=0aa30729732e2704&ei=BydiapuDOtHu0PEP0peTsAw&start=90&sa=N&sstk=AU9db-AwdrBi3OAimcp_KuuOA-ZdN_UPKHjnGRMbyfiyNYB6VUaxUIjoEundRLIgBgdIggEtu974UfetVLJMOzpqDllvh8aEjVRaBA&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ8tMDegQIIxAU
+            - text: "10"
+          - heading [level=2] [ref=f2e916]:
+            - link "Next" [ref=f2e917] [cursor=pointer]:
+              - /url: /search?q=weather+in+Islamabad&sca_esv=0aa30729732e2704&ei=BydiapuDOtHu0PEP0peTsAw&start=10&sa=N&sstk=AU9db-AwdrBi3OAimcp_KuuOA-ZdN_UPKHjnGRMbyfiyNYB6VUaxUIjoEundRLIgBgdIggEtu974UfetVLJMOzpqDllvh8aEjVRaBA&ved=2ahUKEwjbosSAg-mVAxVRNzQIHdLLBMYQ8NMDegQIIxAW
+      - navigation
+    - contentinfo [ref=f2e920]:
+      - heading "Footer links" [level=1] [ref=f2e921]
+      - generic [ref=f2e925]:
+        - generic [ref=f2e927]:
+          - text: Pakistan
+          - generic [ref=f2e929]:
+            - button "E-11, Islamabad - From your IP address" [ref=f2e931] [cursor=pointer]:
+              - generic [ref=f2e932]: E-11, Islamabad
+              - generic [ref=f2e934]:
+                - text: "-"
+                - generic [ref=f2e935]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f2e937] [cursor=pointer]
+        - generic [ref=f2e940]:
+          - link "Help" [ref=f2e941] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-PK&fg=1
+          - link "Send feedback" [ref=f2e942] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f2e943] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-PK&fg=1
+          - link "Terms" [ref=f2e944] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-PK&fg=1

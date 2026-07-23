@@ -31,6 +31,12 @@
 ## Day 4,5: MCP, Sandboxing and conditional Task Execution
 - Project: AI Research agent with conditional PDF/PPT generation
 
+# Week 4
+## Day 1: Introduction to LangChain and LangChain Core
+## Day 2: LangGraph and Memory with Tools
+## Day 3: LangChain Agents
+## Day 4: LangChain Deep agent, sub-agents, sandboxes, skills
+
 # Notes
 - For OpenAI API I have used cloudflare workers AI
 

@@ -1,0 +1,276 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Site Navigation Links" [ref=e4]:
+      - link "The Weather Company" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "The Weather Company" [ref=e7]
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "Forecasts":
+            - /url: /weather/today/l/
+            - paragraph: Forecasts
+        - listitem [ref=e12]:
+          - link [ref=e13] [cursor=pointer]:
+            - /url: /weather/radar/interactive/l/
+            - paragraph [ref=e16]: Radar
+        - listitem [ref=e17]:
+          - button [ref=e18] [cursor=pointer]:
+            - img "Overflow Menu Horizontal" [ref=e19]
+            - paragraph [ref=e22]: More
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link [ref=e25] [cursor=pointer]:
+            - /url: /login
+            - img "User Avatar" [ref=e26]
+            - paragraph [ref=e30]: Sign in
+    - main [ref=e31]:
+      - generic [ref=e34]:
+        - button "Search for a location" [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]: Location
+        - generic [ref=e42]:
+          - button
+          - generic [ref=e43]:
+            - link "Today" [ref=e44] [cursor=pointer]:
+              - /url: /weather/today/l/place.5941353
+            - link "Hourly" [ref=e45] [cursor=pointer]:
+              - /url: /weather/hourbyhour/l/place.5941353
+            - link "10 Day" [ref=e46] [cursor=pointer]:
+              - /url: /weather/tenday/l/place.5941353
+            - link "Monthly" [ref=e47] [cursor=pointer]:
+              - /url: /weather/monthly/l/
+            - link "Gardening" [ref=e48] [cursor=pointer]:
+              - /url: https://labs.weather.com/labs/home-and-garden
+            - link "Allergies" [ref=e49] [cursor=pointer]:
+              - /url: /forecast/allergy/l/place.5941353
+            - link "Air Quality" [ref=e50] [cursor=pointer]:
+              - /url: /forecast/air-quality/l/place.5941353
+            - link "Cold & Flu" [ref=e51] [cursor=pointer]:
+              - /url: /forecast/cold-flu/l/
+          - button
+      - generic [ref=e52]:
+        - region "Advertisement" [ref=e57]
+        - generic [ref=e62]:
+          - region "Current Conditions" [ref=e74]:
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - generic [ref=e79]:
+                  - generic [ref=e80]: Now
+                  - generic [ref=e81]: "--"
+                  - generic [ref=e82]: "--"
+                  - generic [ref=e83]: "--"
+                - generic [ref=e84]:
+                  - img "Not Available" [ref=e86]
+                  - paragraph
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - paragraph [ref=e90]: Feels Like
+                    - paragraph [ref=e91]: "--"
+                  - generic [ref=e93]:
+                    - paragraph [ref=e94]: High
+                    - paragraph [ref=e95]: "--"
+                  - generic [ref=e97]:
+                    - paragraph [ref=e98]: Low
+                    - paragraph [ref=e99]: "--"
+                - generic [ref=e101]:
+                  - paragraph [ref=e102]: Chance of Rain
+                  - paragraph [ref=e103]: 0%
+          - heading "Today's Outlook" [level=2] [ref=e107]
+          - region "Daily Forecast" [ref=e112]:
+            - heading "Daily Forecast" [level=1] [ref=e113]
+            - link "Next 10 Days" [ref=e131] [cursor=pointer]:
+              - /url: /weather/tenday/l/
+          - region "Advertisement" [ref=e134]
+          - region "Radar -" [ref=e156]:
+            - button "Map Attribution" [ref=e162] [cursor=pointer]:
+              - img "Mapbox Logo" [ref=e163]
+          - generic [ref=e175]:
+            - region "Advertisement" [ref=e179]
+            - region "Advertisement" [ref=e186]
+          - region "Advertisement" [ref=e192]
+          - generic [ref=e217]:
+            - region "Advertisement" [ref=e221]
+            - region "Advertisement" [ref=e228]
+          - generic:
+            - generic:
+              - region "Advertisement"
+          - generic:
+            - generic:
+              - region "Advertisement"
+        - generic [ref=e233]:
+          - region "Advertisement" [ref=e236]
+          - region "Advertisement" [ref=e242]
+          - region "Advertisement" [ref=e248]
+          - region "Advertisement" [ref=e260]
+          - region "Advertisement" [ref=e266]
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - list [ref=e274]:
+              - listitem [ref=e275]:
+                - link [ref=e276] [cursor=pointer]:
+                  - /url: https://www.weathercompany.com/
+                  - img "The Weather Company" [ref=e277]
+              - listitem [ref=e278]:
+                - link [ref=e279] [cursor=pointer]:
+                  - /url: https://weather.com/
+                  - img "The Weather Channel" [ref=e280]
+              - listitem [ref=e281]:
+                - link [ref=e282] [cursor=pointer]:
+                  - /url: https://www.wunderground.com/
+                  - img "Weather Underground" [ref=e283]
+              - listitem [ref=e284]:
+                - link [ref=e285] [cursor=pointer]:
+                  - /url: https://weather.com/storm-radar
+                  - img "Storm Radar" [ref=e286]
+            - paragraph [ref=e287]:
+              - text: The Weather Channel is the world's most accurate forecaster according to ForecastWatch,
+              - link "Global and Regional Weather Forecast Accuracy Overview" [ref=e288] [cursor=pointer]:
+                - /url: https://forecastwatch.com/AccuracyOverview2021-2024
+              - text: ", 2021-2024, commissioned by The Weather Company."
+            - paragraph [ref=e289]: Weather Channel.
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - paragraph [ref=e293]: Privacy & Legal
+              - list [ref=e294]:
+                - listitem [ref=e295]:
+                  - link "Terms of Use" [ref=e296] [cursor=pointer]:
+                    - /url: /privacy/terms-of-use
+                    - paragraph [ref=e297]:
+                      - generic [ref=e298]: Terms of Use
+                - listitem [ref=e299]:
+                  - link "Privacy Policy" [ref=e300] [cursor=pointer]:
+                    - /url: /privacy/privacy-policy
+                    - paragraph [ref=e301]:
+                      - generic [ref=e302]: Privacy Policy
+                - listitem [ref=e303]:
+                  - link "Data Rights" [ref=e304] [cursor=pointer]:
+                    - /url: /data-rights
+                    - paragraph [ref=e305]:
+                      - generic [ref=e306]: Data Rights
+                - listitem [ref=e307]:
+                  - link "Privacy Settings" [ref=e308] [cursor=pointer]:
+                    - /url: /privacy-settings
+                    - paragraph [ref=e309]:
+                      - generic [ref=e310]: Privacy Settings
+                - listitem [ref=e311]:
+                  - link "Data Vendors" [ref=e312] [cursor=pointer]:
+                    - /url: /data-vendors
+                    - paragraph [ref=e313]:
+                      - generic [ref=e314]: Data Vendors
+                - listitem [ref=e315]:
+                  - link "AdChoices" [ref=e316] [cursor=pointer]:
+                    - /url: /services/ad-choices
+                    - paragraph [ref=e317]:
+                      - generic [ref=e318]: AdChoices
+                - listitem [ref=e319]:
+                  - link "Accessibility Statement" [ref=e320] [cursor=pointer]:
+                    - /url: /accessibility-statement
+                    - paragraph [ref=e321]:
+                      - generic [ref=e322]: Accessibility Statement
+                - listitem [ref=e323]:
+                  - link "Community Guidelines External Link" [ref=e324] [cursor=pointer]:
+                    - /url: /privacy/community-guidelines
+                    - paragraph [ref=e325]:
+                      - generic [ref=e326]: Community Guidelines
+                    - img "External Link" [ref=e327]
+            - generic [ref=e330]:
+              - paragraph [ref=e332]: More
+              - list [ref=e333]:
+                - listitem [ref=e334]:
+                  - link "Mission" [ref=e335] [cursor=pointer]:
+                    - /url: /mission
+                    - paragraph [ref=e336]:
+                      - generic [ref=e337]: Mission
+                - listitem [ref=e338]:
+                  - link "Newsletter Sign Up" [ref=e339] [cursor=pointer]:
+                    - /url: https://weather.com/newsletters?cm_ven=dnt_newsletter_footer
+                    - paragraph [ref=e340]:
+                      - generic [ref=e341]: Newsletter Sign Up
+                - listitem [ref=e342]:
+                  - link "Feedback External Link" [ref=e343] [cursor=pointer]:
+                    - /url: //support.weather.com?language=en_US
+                    - paragraph [ref=e344]:
+                      - generic [ref=e345]: Feedback
+                    - img "External Link" [ref=e346]
+                - listitem [ref=e349]:
+                  - link "Careers External Link" [ref=e350] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/careers
+                    - paragraph [ref=e351]:
+                      - generic [ref=e352]: Careers
+                    - img "External Link" [ref=e353]
+                - listitem [ref=e356]:
+                  - link "News Room External Link" [ref=e357] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/newsroom
+                    - paragraph [ref=e358]:
+                      - generic [ref=e359]: News Room
+                    - img "External Link" [ref=e360]
+                - listitem [ref=e363]:
+                  - link "Advertise With Us External Link" [ref=e364] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/advertising/
+                    - paragraph [ref=e365]:
+                      - generic [ref=e366]: Advertise With Us
+                    - img "External Link" [ref=e367]
+                - listitem [ref=e370]:
+                  - link "TV External Link" [ref=e371] [cursor=pointer]:
+                    - /url: https://www.weathergroup.com/brands/the-weather-channel/
+                    - paragraph [ref=e372]:
+                      - generic [ref=e373]: TV
+                    - img "External Link" [ref=e374]
+                - listitem [ref=e377]:
+                  - link "Weather Data APIs External Link" [ref=e378] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/weather-data-apis/
+                    - paragraph [ref=e379]:
+                      - generic [ref=e380]: Weather Data APIs
+                    - img "External Link" [ref=e381]
+                - listitem [ref=e384]:
+                  - link "Alexa Skill External Link" [ref=e385] [cursor=pointer]:
+                    - /url: https://www.amazon.com/The-Weather-Company-Channel/dp/B07YPYHQ1Q
+                    - paragraph [ref=e386]:
+                      - generic [ref=e387]: Alexa Skill
+                    - img "External Link" [ref=e388]
+                - listitem [ref=e391]:
+                  - link "Weather Labs External Link" [ref=e392] [cursor=pointer]:
+                    - /url: https://labs.weather.com
+                    - paragraph [ref=e393]:
+                      - generic [ref=e394]: Weather Labs
+                    - img "External Link" [ref=e395]
+                - listitem [ref=e398]:
+                  - link "Atmosphere" [ref=e399] [cursor=pointer]:
+                    - /url: /atmosphere
+                    - paragraph [ref=e400]:
+                      - generic [ref=e401]: Atmosphere
+                - listitem [ref=e402]:
+                  - link "Sitemap" [ref=e403] [cursor=pointer]:
+                    - /url: /sitemap
+                    - paragraph [ref=e404]:
+                      - generic [ref=e405]: Sitemap
+        - generic [ref=e407]:
+          - list [ref=e409]:
+            - listitem [ref=e410]:
+              - link [ref=e411] [cursor=pointer]:
+                - /url: https://www.facebook.com/TheWeatherChannel
+                - img "Facebook" [ref=e412]
+            - listitem [ref=e415]:
+              - link [ref=e416] [cursor=pointer]:
+                - /url: http://www.twitter.com/weatherchannel
+                - img "X" [ref=e417]
+            - listitem [ref=e419]:
+              - link [ref=e420] [cursor=pointer]:
+                - /url: http://instagram.com/weatherchannel
+                - img "Instagram" [ref=e421]
+            - listitem [ref=e425]:
+              - link [ref=e426] [cursor=pointer]:
+                - /url: http://www.youtube.com/user/TheWeatherChannel/
+                - img "Youtube" [ref=e427]
+          - paragraph [ref=e430]: © The Weather Company, LLC 2026
+          - list [ref=e432]:
+            - listitem [ref=e433]:
+              - link [ref=e434] [cursor=pointer]:
+                - /url: http://www.exploregeorgia.org/weather-and-travel-tips
+                - img "Explore Georgia" [ref=e435]
+            - listitem [ref=e436]:
+              - link [ref=e437] [cursor=pointer]:
+                - /url: https://www.essentialaccessibility.com/the-weather-channel?utm_source=theweatherchannelhomepage&utm_medium=iconlarge&utm_term=eachannelpage&utm_content=header&utm_campaign=theweatherchannel
+                - img "Essential Accessibility" [ref=e438]
+  - region "Notifications alt+T"

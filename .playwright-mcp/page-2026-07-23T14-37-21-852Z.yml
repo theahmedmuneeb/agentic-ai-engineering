@@ -1,0 +1,277 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - navigation "Site Navigation Links" [ref=e4]:
+      - button [ref=e6] [cursor=pointer]:
+        - img "Hamburger" [ref=e8]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - img "Home" [ref=e16]
+          - generic [ref=e20]: Home
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: "#noloc_/weather/today/l/"
+            - img "Today" [ref=e25]
+          - generic [ref=e27]: Today
+        - listitem [ref=e29]:
+          - link [ref=e30] [cursor=pointer]:
+            - /url: "#noloc_/weather/hourbyhour/l/"
+            - img "Hourly" [ref=e32]
+          - generic [ref=e35]: Hourly
+        - listitem [ref=e37]:
+          - link [ref=e38] [cursor=pointer]:
+            - /url: "#noloc_/weather/tenday/l/"
+            - img "Close" [ref=e40]
+          - generic [ref=e42]: 10 Day
+        - listitem [ref=e44]:
+          - link [ref=e45] [cursor=pointer]:
+            - /url: "#noloc_/weather/monthly/l/"
+            - img "Monthly" [ref=e47]
+          - generic [ref=e61]: Monthly
+        - listitem [ref=e63]:
+          - link [ref=e64] [cursor=pointer]:
+            - /url: "#noloc_/weather/radar/interactive/l/"
+            - img "Radar" [ref=e66]
+          - generic [ref=e68]: Radar
+        - listitem [ref=e70]:
+          - link [ref=e71] [cursor=pointer]:
+            - /url: /safety/hurricane/video/hurricane-season-preparation-tropical-terminology
+            - img "Video" [ref=e73]
+          - generic [ref=e76]: Video
+        - listitem [ref=e78]:
+          - link [ref=e79] [cursor=pointer]:
+            - /url: /explore
+          - generic [ref=e84]: Explore
+    - generic:
+      - generic:
+        - navigation:
+          - generic:
+            - button
+            - link:
+              - /url: /
+          - list:
+            - listitem:
+              - link:
+                - /url: /
+                - generic: Home
+            - listitem:
+              - link:
+                - /url: "#noloc_/weather/today/l/"
+                - generic: Today
+            - listitem:
+              - link:
+                - /url: "#noloc_/weather/hourbyhour/l/"
+                - generic: Hourly
+            - listitem:
+              - link:
+                - /url: "#noloc_/weather/tenday/l/"
+                - generic: 10 Day
+            - listitem:
+              - link:
+                - /url: "#noloc_/weather/monthly/l/"
+                - generic: Monthly
+            - listitem:
+              - link:
+                - /url: "#noloc_/weather/radar/interactive/l/"
+                - generic: Radar
+            - listitem:
+              - link:
+                - /url: /safety/hurricane/video/hurricane-season-preparation-tropical-terminology
+                - generic: Video
+            - listitem:
+              - link:
+                - /url: /explore
+                - generic: Explore
+            - listitem
+            - listitem:
+              - button:
+                - generic: Severe Weather
+              - list:
+                - listitem:
+                  - menuitem:
+                    - generic: Hurricane Central
+                - listitem:
+                  - menuitem:
+                    - generic: Tornado Central
+                - listitem:
+                  - menuitem:
+                    - generic: Safety & Prep
+            - listitem
+            - listitem:
+              - button:
+                - generic: Health & Wellness
+              - list:
+                - listitem:
+                  - menuitem:
+                    - generic: Allergy Tracker
+                - listitem:
+                  - menuitem:
+                    - generic: Air Quality Index
+                - listitem:
+                  - menuitem:
+                    - generic: Cold & Flu Tracker
+                - listitem:
+                  - menuitem:
+                    - generic: Skin
+            - listitem
+            - listitem:
+              - button:
+                - generic: Lifestyle
+              - list:
+                - listitem:
+                  - menuitem:
+                    - generic: Home & Garden
+                - listitem:
+                  - menuitem:
+                    - generic: Pets & Animals
+                - listitem:
+                  - menuitem:
+                    - generic: Recipes
+                - listitem:
+                  - menuitem:
+                    - generic: Space & Skywatching
+                - listitem:
+                  - menuitem:
+                    - generic: Travel & Outdoors
+                - listitem:
+                  - menuitem:
+                    - generic: Product Reviews & Deals
+                - listitem:
+                  - menuitem:
+                    - generic: Shop
+  - generic [ref=e86]:
+    - banner "Menu" [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - link "Skip to Main Content" [ref=e94] [cursor=pointer]:
+            - /url: "#MainContent"
+          - link "Accessibility Help" [ref=e95] [cursor=pointer]:
+            - /url: https://www.essentialaccessibility.com/the-weather-channel?utm_source=theweatherchannelhomepage&utm_medium=iconlarge&utm_term=eachannelpage&utm_content=header&utm_campaign=theweatherchannel
+          - link [ref=e96] [cursor=pointer]:
+            - /url: /
+            - generic "The Weather Company - Home" [ref=e97]:
+              - img "The Weather Company - Home" [ref=e98]
+        - generic [ref=e101]:
+          - search [ref=e102]:
+            - generic [ref=e105]:
+              - group "Type at least three characters to start auto complete. Recently searched locations will be displayed if there is no search query. The first option will be automatically selected. Use up and down arrows to change selection. Use escape to clear." [ref=e106]:
+                - generic [ref=e108]: Search City or Zip Code
+                - combobox "Search City or Zip Code" [disabled] [ref=e109]
+              - img "Search" [ref=e111]
+          - button "[object Object]" [ref=e114] [cursor=pointer]:
+            - generic [ref=e115]:
+              - img "Globe" [ref=e117]
+              - generic [ref=e119]: US
+              - generic [ref=e120]: °F
+              - generic "chevron down" [ref=e121]:
+                - img "chevron down" [ref=e122]
+    - generic: Advertisement
+    - main [ref=e124]:
+      - generic [ref=e127]:
+        - heading "Oops! We are having trouble finding your page." [level=1] [ref=e128]
+        - heading "Please try again... or Check out some of our favorite areas of the site." [level=2] [ref=e129]
+        - generic [ref=e130]:
+          - link [ref=e132] [cursor=pointer]:
+            - /url: /video
+            - img "Video" [ref=e133]
+            - generic [ref=e134]:
+              - heading "Video" [level=3] [ref=e135]
+              - paragraph [ref=e136]: Watch today's top stories and most popular videos. Looking to watch incredible tornadoes? We've got that too.
+          - link [ref=e138] [cursor=pointer]:
+            - /url: /weather/radar/interactive/l/
+            - img "Maps" [ref=e139]
+            - generic [ref=e140]:
+              - heading "Maps" [level=3] [ref=e141]
+              - paragraph [ref=e142]: Check out our interactive maps, which provide you with features like past/future radar and customizable layers.
+          - link [ref=e144] [cursor=pointer]:
+            - /url: /weather/today/l/
+            - img "Local Weather" [ref=e145]
+            - generic [ref=e146]:
+              - heading "Local Weather" [level=3] [ref=e147]
+              - paragraph [ref=e148]: Trust us to help you plan the best day possible, with the most accurate weather forecast available.
+      - generic:
+        - main "Main Content"
+    - contentinfo [ref=e149]:
+      - generic [ref=e153]:
+        - generic [ref=e155]:
+          - link [ref=e156] [cursor=pointer]:
+            - /url: https://www.weathercompany.com
+            - img "The Weather Company" [ref=e157]
+          - link [ref=e158] [cursor=pointer]:
+            - /url: https://weather.com
+            - img "The Weather Channel" [ref=e159]
+          - link [ref=e160] [cursor=pointer]:
+            - /url: https://www.wunderground.com
+            - img "Weather Underground" [ref=e161]
+          - link "The Weather Company" [ref=e162] [cursor=pointer]:
+            - /url: https://weather.com/storm-radar
+            - img "Storm Radar" [ref=e163]
+        - list [ref=e164]:
+          - listitem [ref=e165]:
+            - link "Feedback, opens in new window" [ref=e166] [cursor=pointer]:
+              - /url: //support.weather.com
+              - text: Feedback
+          - listitem [ref=e167]:
+            - link "Mission, opens in new window" [ref=e168] [cursor=pointer]:
+              - /url: /mission
+              - text: Mission
+          - listitem [ref=e169]:
+            - link "Careers, opens in new window" [ref=e170] [cursor=pointer]:
+              - /url: https://www.weathercompany.com/careers
+              - text: Careers
+          - listitem [ref=e171]:
+            - link "News Room, opens in new window" [ref=e172] [cursor=pointer]:
+              - /url: https://www.weathercompany.com/newsroom
+              - text: News Room
+          - listitem [ref=e173]:
+            - link "Advertise With Us, opens in new window" [ref=e174] [cursor=pointer]:
+              - /url: https://www.weathercompany.com/advertising/
+              - text: Advertise With Us
+          - listitem [ref=e175]:
+            - link "TV, opens in new window" [ref=e176] [cursor=pointer]:
+              - /url: https://www.weathergroup.com/brands/the-weather-channel/
+              - text: TV
+          - listitem [ref=e177]:
+            - link "Weather Data APIs, opens in new window" [ref=e178] [cursor=pointer]:
+              - /url: https://www.weathercompany.com/weather-data-apis/
+              - text: Weather Data APIs
+        - list [ref=e179]:
+          - listitem [ref=e180]:
+            - link "Terms of Use" [ref=e181] [cursor=pointer]:
+              - /url: /legal
+          - listitem [ref=e182]:
+            - link "Privacy Policy" [ref=e183] [cursor=pointer]:
+              - /url: /en-US/twc/privacy-policy
+          - listitem [ref=e184]:
+            - link "AdChoices" [ref=e185] [cursor=pointer]:
+              - /url: /services/ad-choices
+              - generic [ref=e186]:
+                - generic [ref=e187]: AdChoices
+                - img "Ad Choices" [ref=e190]
+          - listitem [ref=e192]:
+            - link "Accessibility Statement" [ref=e193] [cursor=pointer]:
+              - /url: /accessibility-statement
+          - listitem [ref=e194]:
+            - link "Data Vendors" [ref=e195] [cursor=pointer]:
+              - /url: /data-vendors
+        - generic [ref=e196]:
+          - link [ref=e197] [cursor=pointer]:
+            - /url: http://www.exploregeorgia.org/weather-and-travel-tips
+            - img "Georgia Org" [ref=e198]
+          - link [ref=e199] [cursor=pointer]:
+            - /url: https://www.essentialaccessibility.com/the-weather-channel?utm_source=theweatherchannelhomepage&utm_medium=iconlarge&utm_term=eachannelpage&utm_content=header&utm_campaign=theweatherchannel
+            - img "Link to eSSENTIAL Accessibility assistive technology" [ref=e200]
+        - generic [ref=e201]:
+          - paragraph [ref=e202]: We recognize our responsibility to use data and technology for good. We may use or share your data with our data vendors. Take control of your data.
+          - list [ref=e203]:
+            - listitem [ref=e204]:
+              - link "Data Rights" [ref=e205] [cursor=pointer]:
+                - /url: /data-rights
+        - paragraph [ref=e206]:
+          - text: The Weather Channel is the world's most accurate forecaster according to ForecastWatch,
+          - link "Global and Regional Weather Forecast Accuracy Overview" [ref=e207] [cursor=pointer]:
+            - /url: https://forecastwatch.com/AccuracyOverview2021-2024
+          - text: ", 2021-2024, commissioned by The Weather Company."
+        - paragraph [ref=e208]: Weather Channel
+        - paragraph [ref=e210]: © The Weather Company, LLC 2026

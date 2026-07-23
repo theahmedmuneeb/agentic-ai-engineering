@@ -1,0 +1,400 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "DuckDuckGo home" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e8]: DuckDuckGo
+          - generic [ref=e15]:
+            - combobox "Search privately" [ref=e17]: weather Islamabad
+            - button "search" [ref=e19] [cursor=pointer]
+        - button "Open menu" [ref=e23] [cursor=pointer]
+      - navigation [ref=e31]:
+        - list [ref=e32]:
+          - listitem [ref=e33]:
+            - link "All" [ref=e34] [cursor=pointer]:
+              - /url: /?q=weather+Islamabad&ia=web
+          - listitem [ref=e37]:
+            - link "Images" [ref=e38] [cursor=pointer]:
+              - /url: /?q=weather+Islamabad&ia=images&iax=images
+          - listitem [ref=e39]:
+            - link "News" [ref=e40] [cursor=pointer]:
+              - /url: /?q=weather+Islamabad&ia=news&iar=news
+          - listitem [ref=e41]:
+            - link "Videos" [ref=e42] [cursor=pointer]:
+              - /url: /?q=weather+Islamabad&ia=videos&iax=videos
+          - listitem [ref=e43]:
+            - link "Maps" [ref=e44] [cursor=pointer]:
+              - /url: /?q=weather+Islamabad&iaxm=maps
+        - list [ref=e45]:
+          - listitem [ref=e46]:
+            - link "Search Assist" [ref=e49] [cursor=pointer]:
+              - /url: /?q=weather+Islamabad&ia=web&assist=true
+          - listitem [ref=e54]:
+            - link "Duck.ai" [ref=e56] [cursor=pointer]:
+              - /url: /?q=weather+Islamabad&ia=chat
+          - listitem [ref=e60]:
+            - button "Search Settings ✀" [ref=e62] [cursor=pointer]:
+              - generic [ref=e65]: Search Settings
+              - generic [ref=e66]: ✀
+    - generic [ref=e73]:
+      - navigation [ref=e75]:
+        - generic [ref=e78] [cursor=pointer]:
+          - generic [ref=e79]: Protected
+          - img [ref=e87]: ▼
+        - generic [ref=e91] [cursor=pointer]:
+          - generic [ref=e94]:
+            - switch "✓" [ref=e95]
+            - generic [ref=e97]: Pakistan (en)
+          - img [ref=e98]: ▼
+        - generic [ref=e102] [cursor=pointer]:
+          - generic [ref=e103]: "Safe search: moderate"
+          - img [ref=e104]: ▼
+        - generic [ref=e108] [cursor=pointer]:
+          - generic [ref=e109]: Any time
+          - img [ref=e110]: ▼
+      - generic [ref=e113]:
+        - list [ref=e114]:
+          - listitem [ref=e115]
+          - listitem [ref=e118]:
+            - article [ref=e119] [cursor=pointer]:
+              - button [ref=e121]
+              - generic [ref=e126]:
+                - link "Search domain accuweather.com" [ref=e128]:
+                  - /url: /?q=weather%20Islamabad+site:www.accuweather.com
+                - generic [ref=e131]:
+                  - paragraph [ref=e132]: AccuWeather
+                  - link "https://www.accuweather.com › en › pk › islamabad › 258278 › hourly-weather-forecast › 258278" [ref=e133]:
+                    - /url: https://www.accuweather.com/en/pk/islamabad/258278/hourly-weather-forecast/258278
+                    - paragraph [ref=e135]:
+                      - generic [ref=e136]: https://www.accuweather.com
+                      - generic [ref=e137]: › en › pk › islamabad › 258278 › hourly-weather-forecast › 258278
+              - heading [level=2] [ref=e139]:
+                - link "Islamabad, Islamabad, Pakistan Hourly Weather | AccuWeather" [ref=e140]:
+                  - /url: https://www.accuweather.com/en/pk/islamabad/258278/hourly-weather-forecast/258278
+              - generic [ref=e142]: Hourly weather forecast in Islamabad, Islamabad, Pakistan. Check current conditions in Islamabad, Islamabad, Pakistan with radar, hourly, and more.
+              - list [ref=e149]:
+                - listitem [ref=e150]:
+                  - link "Tomorrow We would like to show you a description here but the site won't allow us." [ref=e151]:
+                    - /url: https://www.accuweather.com/en/pk/islamabad/258278/hourly-weather-forecast/258278?day=2
+                    - heading "Tomorrow" [level=3] [ref=e152]
+                    - paragraph [ref=e153]:
+                      - generic [ref=e154]: We would like to show you a description here but the site won't allow us.
+                - listitem [ref=e155]:
+                  - link "Saturday We would like to show you a description here but the site won't allow us." [ref=e156]:
+                    - /url: https://www.accuweather.com/en/pk/islamabad/258278/hourly-weather-forecast/258278?day=3
+                    - heading "Saturday" [level=3] [ref=e157]
+                    - paragraph [ref=e158]:
+                      - generic [ref=e159]: We would like to show you a description here but the site won't allow us.
+                - listitem [ref=e160]:
+                  - link "Today Islamabad, Islamabad, Pakistan Weather Forecast, with current conditions, wind, air quality, and what to expect for the next 3 days." [ref=e161]:
+                    - /url: https://www.accuweather.com/en/pk/islamabad/258278/weather-forecast/258278
+                    - heading "Today" [level=3] [ref=e162]
+                    - paragraph [ref=e163]:
+                      - generic [ref=e164]: Islamabad, Islamabad, Pakistan Weather Forecast, with current conditions, wind, air quality, and what to expect for the next 3 days.
+          - listitem [ref=e165]:
+            - article [ref=e166] [cursor=pointer]:
+              - button [ref=e168]
+              - generic [ref=e173]:
+                - link "Search domain accuweather.com" [ref=e175]:
+                  - /url: /?q=weather%20Islamabad+site:www.accuweather.com
+                - generic [ref=e178]:
+                  - paragraph [ref=e179]: AccuWeather
+                  - link "https://www.accuweather.com › en › pk › islamabad › 258278 › weather-forecast › 258278" [ref=e180]:
+                    - /url: https://www.accuweather.com/en/pk/islamabad/258278/weather-forecast/258278
+                    - paragraph [ref=e182]:
+                      - generic [ref=e183]: https://www.accuweather.com
+                      - generic [ref=e184]: › en › pk › islamabad › 258278 › weather-forecast › 258278
+              - heading [level=2] [ref=e186]:
+                - link "Islamabad, Islamabad, Pakistan Weather Forecast | AccuWeather" [ref=e187]:
+                  - /url: https://www.accuweather.com/en/pk/islamabad/258278/weather-forecast/258278
+              - generic [ref=e192]:
+                - text: Today·
+                - generic [ref=e193]: Islamabad, Islamabad, Pakistan Weather Forecast, with current conditions, wind, air quality, and what to expect for the next 3 days.
+          - listitem [ref=e194]:
+            - article [ref=e195] [cursor=pointer]:
+              - button [ref=e197]
+              - generic [ref=e202]:
+                - link "Search domain weather365.com" [ref=e204]:
+                  - /url: /?q=weather%20Islamabad+site:weather365.com
+                - generic [ref=e207]:
+                  - paragraph [ref=e208]: weather365.com
+                  - link "https://weather365.com › en › next-15-days › pk › islamabad-islamabad › islamabad" [ref=e209]:
+                    - /url: https://weather365.com/en/next-15-days/pk/islamabad-islamabad/islamabad
+                    - paragraph [ref=e211]:
+                      - generic [ref=e212]: https://weather365.com
+                      - generic [ref=e213]: › en › next-15-days › pk › islamabad-islamabad › islamabad
+              - heading [level=2] [ref=e215]:
+                - link "15-day weather forecast for Islamabad, Pakistan" [ref=e216]:
+                  - /url: https://weather365.com/en/next-15-days/pk/islamabad-islamabad/islamabad
+              - generic [ref=e221]:
+                - text: Today·
+                - generic [ref=e222]: "Detailed 15-day weather forecast for Islamabad, Pakistan: temperature, rainfall, wind conditions, UV index, and humidity. Check now!"
+          - listitem [ref=e223]:
+            - article [ref=e224] [cursor=pointer]:
+              - button [ref=e226]
+              - generic [ref=e231]:
+                - link "Search domain meteoblue.com" [ref=e233]:
+                  - /url: /?q=weather%20Islamabad+site:www.meteoblue.com
+                - generic [ref=e236]:
+                  - paragraph [ref=e237]: meteoblue
+                  - link "https://www.meteoblue.com › en › weather › week › islamabad_pakistan_1176615" [ref=e238]:
+                    - /url: https://www.meteoblue.com/en/weather/week/islamabad_pakistan_1176615
+                    - paragraph [ref=e240]:
+                      - generic [ref=e241]: https://www.meteoblue.com
+                      - generic [ref=e242]: › en › weather › week › islamabad_pakistan_1176615
+              - heading [level=2] [ref=e244]:
+                - link "Weather Islamabad - meteoblue" [ref=e245]:
+                  - /url: https://www.meteoblue.com/en/weather/week/islamabad_pakistan_1176615
+              - generic [ref=e247]: Today's and tonight's professional weather forecast for Islamabad. Precipitation radar, HD satellite images, and current weather warnings, hourly temperature, chance of rain, and sunshine hours.
+          - listitem [ref=e252]:
+            - article [ref=e253] [cursor=pointer]:
+              - button [ref=e255]
+              - generic [ref=e260]:
+                - link "Search domain timeanddate.com" [ref=e262]:
+                  - /url: /?q=weather%20Islamabad+site:www.timeanddate.com
+                - generic [ref=e265]:
+                  - paragraph [ref=e266]: TimeAndDate
+                  - link "https://www.timeanddate.com › weather › pakistan › islamabad › ext" [ref=e267]:
+                    - /url: https://www.timeanddate.com/weather/pakistan/islamabad/ext
+                    - paragraph [ref=e269]:
+                      - generic [ref=e270]: https://www.timeanddate.com
+                      - generic [ref=e271]: › weather › pakistan › islamabad › ext
+              - heading [level=2] [ref=e273]:
+                - link "Islamabad, Pakistan 14 day weather forecast - timeanddate.com" [ref=e274]:
+                  - /url: https://www.timeanddate.com/weather/pakistan/islamabad/ext
+              - generic [ref=e276]: 2 Week Extended Forecast in Islamabad, Pakistan Scroll right to see more ... Hour-by-hour weather for Islamabad next 7 days
+          - listitem [ref=e281]:
+            - article [ref=e282] [cursor=pointer]:
+              - button [ref=e284]
+              - generic [ref=e289]:
+                - link "Search domain bbc.com" [ref=e291]:
+                  - /url: /?q=weather%20Islamabad+site:www.bbc.com
+                - generic [ref=e294]:
+                  - paragraph [ref=e295]: BBC
+                  - link "https://www.bbc.com › weather › 1176615" [ref=e296]:
+                    - /url: https://www.bbc.com/weather/1176615
+                    - paragraph [ref=e298]:
+                      - generic [ref=e299]: https://www.bbc.com
+                      - generic [ref=e300]: › weather › 1176615
+              - heading [level=2] [ref=e302]:
+                - link "Islamabad - BBC Weather" [ref=e303]:
+                  - /url: https://www.bbc.com/weather/1176615
+              - generic [ref=e305]: 14-day weather forecast for Islamabad.
+          - listitem [ref=e310]:
+            - article [ref=e311] [cursor=pointer]:
+              - button [ref=e313]
+              - generic [ref=e318]:
+                - link "Search domain ventusky.com" [ref=e320]:
+                  - /url: /?q=weather%20Islamabad+site:www.ventusky.com
+                - generic [ref=e323]:
+                  - paragraph [ref=e324]: Ventusky
+                  - link "https://www.ventusky.com › islamabad" [ref=e325]:
+                    - /url: https://www.ventusky.com/islamabad
+                    - paragraph [ref=e327]:
+                      - generic [ref=e328]: https://www.ventusky.com
+                      - generic [ref=e329]: › islamabad
+              - heading [level=2] [ref=e331]:
+                - link "Weather - Islamabad - 14-Day Forecast & Rain | Ventusky" [ref=e332]:
+                  - /url: https://www.ventusky.com/islamabad
+              - generic [ref=e334]: Islamabad - Weather forecast for 14 days, information from meteorological stations, webcams, sunrise and sunset, wind and precipitation maps for this place
+          - listitem [ref=e339]:
+            - article [ref=e340] [cursor=pointer]:
+              - button [ref=e342]
+              - generic [ref=e347]:
+                - link "Search domain weather.gov.pk" [ref=e349]:
+                  - /url: /?q=weather%20Islamabad+site:weather.gov.pk
+                - generic [ref=e352]:
+                  - paragraph [ref=e353]: weather.gov.pk
+                  - link "https://weather.gov.pk" [ref=e354]:
+                    - /url: https://weather.gov.pk/
+                    - paragraph [ref=e356]:
+                      - generic [ref=e357]: https://weather.gov.pk
+              - heading [level=2] [ref=e359]:
+                - link "Pakistan Meteorological Department - PMD" [ref=e360]:
+                  - /url: https://weather.gov.pk/
+              - generic [ref=e362]: National Weather Forecasting Center (NWFC) is responsible for monitoring the weather conditions and is operated by Pakistan Meteorological Department (PMD). It plays a crucial role in providing timely and accurate weather forecast.
+          - listitem [ref=e367]:
+            - article [ref=e368] [cursor=pointer]:
+              - button [ref=e370]
+              - generic [ref=e375]:
+                - link "Search domain freemeteo.pk" [ref=e377]:
+                  - /url: /?q=weather%20Islamabad+site:freemeteo.pk
+                - generic [ref=e380]:
+                  - paragraph [ref=e381]: freemeteo.pk
+                  - link "https://freemeteo.pk › weather › islamabad › 15-days › list › ?gid=1176615&language=english&country=pakistan" [ref=e382]:
+                    - /url: https://freemeteo.pk/weather/islamabad/15-days/list/?gid=1176615&language=english&country=pakistan
+                    - paragraph [ref=e384]:
+                      - generic [ref=e385]: https://freemeteo.pk
+                      - generic [ref=e386]: › weather › islamabad › 15-days › list › ?gid=1176615&language=english&country=pakistan
+              - heading [level=2] [ref=e388]:
+                - link "Weather Islamabad - 15 day weather forecast | freemeteo.pk" [ref=e389]:
+                  - /url: https://freemeteo.pk/weather/islamabad/15-days/list/?gid=1176615&language=english&country=pakistan
+              - generic [ref=e394]:
+                - text: Today·
+                - generic [ref=e395]: "Islamabad: Warning for severe weather conditions Rain and chance of thunder Severe weather conditions expected: Friday, July 24, 2026"
+          - listitem [ref=e396]:
+            - article [ref=e397] [cursor=pointer]:
+              - button [ref=e399]
+              - generic [ref=e404]:
+                - link "Search domain msn.com" [ref=e406]:
+                  - /url: /?q=weather%20Islamabad+site:www.msn.com
+                - generic [ref=e409]:
+                  - paragraph [ref=e410]: MSN
+                  - link "https://www.msn.com › en-us › weather › forecast › in-Islamabad,Pakistan" [ref=e411]:
+                    - /url: https://www.msn.com/en-us/weather/forecast/in-Islamabad,Pakistan
+                    - paragraph [ref=e413]:
+                      - generic [ref=e414]: https://www.msn.com
+                      - generic [ref=e415]: › en-us › weather › forecast › in-Islamabad,Pakistan
+              - heading [level=2] [ref=e417]:
+                - link "Islamabad, Islāmābād, Pakistan Weather Forecast - MSN" [ref=e418]:
+                  - /url: https://www.msn.com/en-us/weather/forecast/in-Islamabad,Pakistan
+              - generic [ref=e420]: Get the latest weather updates, forecasts, radar images, severe weather warnings and air quality information for Islamabad, Pakistan on MSN Weather.
+          - listitem [ref=e425]:
+            - generic [ref=e433]:
+              - generic [ref=e434]:
+                - generic [ref=e436]:
+                  - text: Generate answer for
+                  - strong [ref=e437]: weather Islamabad
+                - generic [ref=e438]:
+                  - button "Learn More About Assist" [ref=e439] [cursor=pointer]
+                  - button "Assist Settings" [ref=e443] [cursor=pointer]
+              - button "Assist" [ref=e446] [cursor=pointer]: Search Assist
+          - listitem [ref=e450]:
+            - generic [ref=e452]:
+              - paragraph [ref=e453]: Searches related to weather Islamabad
+              - generic [ref=e454]:
+                - list [ref=e455]:
+                  - listitem [ref=e456]:
+                    - link "islamabad weather 14 days" [ref=e457] [cursor=pointer]:
+                      - /url: "?q=islamabad%20weather%2014%20days"
+                  - listitem [ref=e460]:
+                    - link "weather in islamabad today hourly" [ref=e461] [cursor=pointer]:
+                      - /url: "?q=weather%20in%20islamabad%20today%20hourly"
+                  - listitem [ref=e464]:
+                    - link "weather in islamabad tomorrow" [ref=e465] [cursor=pointer]:
+                      - /url: "?q=weather%20in%20islamabad%20tomorrow"
+                  - listitem [ref=e468]:
+                    - link "weather islamabad today" [ref=e469] [cursor=pointer]:
+                      - /url: "?q=weather%20islamabad%20today"
+                - list [ref=e472]:
+                  - listitem [ref=e473]:
+                    - link "weather karachi" [ref=e474] [cursor=pointer]:
+                      - /url: "?q=weather%20karachi"
+                  - listitem [ref=e477]:
+                    - link "weather islamabad 7 days" [ref=e478] [cursor=pointer]:
+                      - /url: "?q=weather%20islamabad%207%20days"
+                  - listitem [ref=e481]:
+                    - link "weather abbottabad" [ref=e482] [cursor=pointer]:
+                      - /url: "?q=weather%20abbottabad"
+                  - listitem [ref=e485]:
+                    - link "weather peshawar" [ref=e486] [cursor=pointer]:
+                      - /url: "?q=weather%20peshawar"
+        - button "More results" [ref=e491] [cursor=pointer]
+    - list [ref=e494]:
+      - button "Close menu" [ref=e495] [cursor=pointer]
+      - list [ref=e499]:
+        - listitem [ref=e500]: Search
+        - listitem [ref=e501]:
+          - link "Homepage" [ref=e502] [cursor=pointer]:
+            - /url: https://start.duckduckgo.com/
+        - listitem [ref=e503]:
+          - link "Themes" [ref=e504] [cursor=pointer]:
+            - /url: /settings#appearance
+        - listitem [ref=e505]:
+          - link "Settings" [ref=e506] [cursor=pointer]:
+            - /url: /settings
+      - list [ref=e507]:
+        - listitem [ref=e508]: Share Feedback
+        - listitem [ref=e509]:
+          - generic [ref=e512]:
+            - button "Positive feedback" [ref=e513] [cursor=pointer]
+            - button "Negative feedback" [ref=e517] [cursor=pointer]
+      - list [ref=e521]:
+        - listitem [ref=e522]: Downloads
+        - listitem [ref=e523]:
+          - link "iOS Browser" [ref=e524] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+        - listitem [ref=e525]:
+          - link "Android Browser" [ref=e526] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+        - listitem [ref=e527]:
+          - link "Mac Browser" [ref=e528] [cursor=pointer]:
+            - /url: /mac?origin=funnel_browser_searchresults
+        - listitem [ref=e529]:
+          - link "Windows Browser" [ref=e530] [cursor=pointer]:
+            - /url: /windows?origin=funnel_browser_searchresults
+        - listitem [ref=e531]: Browser Extensions
+      - list [ref=e532]:
+        - listitem [ref=e533]: More From DuckDuckGo
+        - listitem [ref=e534]:
+          - generic [ref=e537]:
+            - button "Dismiss promotion" [ref=e538] [cursor=pointer]
+            - generic [ref=e541]:
+              - paragraph [ref=e543]: Upgrade to our Private Browser
+              - paragraph [ref=e555]: Fast. Secure. Free.
+            - link "Download Browser" [ref=e556] [cursor=pointer]:
+              - /url: /windows
+        - listitem [ref=e559]:
+          - link "Duck.ai" [ref=e560] [cursor=pointer]:
+            - /url: https://duck.ai
+        - listitem [ref=e561]:
+          - link "Email Protection" [ref=e562] [cursor=pointer]:
+            - /url: /email
+        - listitem [ref=e563]:
+          - link "Newsletter" [ref=e564] [cursor=pointer]:
+            - /url: /newsletter
+        - listitem [ref=e565]:
+          - link "Blog" [ref=e566] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=e567]:
+          - link "Podcast" [ref=e568] [cursor=pointer]:
+            - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+        - listitem [ref=e569]:
+          - link "Collaborations" [ref=e570] [cursor=pointer]:
+            - /url: /collaborations
+      - list [ref=e571]:
+        - listitem [ref=e572]: Learn More
+        - listitem [ref=e573]:
+          - link "What’s New" [ref=e574] [cursor=pointer]:
+            - /url: /updates
+        - listitem [ref=e575]:
+          - link "Compare Privacy" [ref=e576] [cursor=pointer]:
+            - /url: /compare-privacy
+        - listitem [ref=e577]:
+          - link "About Our Browser" [ref=e578] [cursor=pointer]:
+            - /url: /app
+        - listitem [ref=e579]:
+          - link "About DuckDuckGo" [ref=e580] [cursor=pointer]:
+            - /url: /about
+      - list [ref=e581]:
+        - listitem [ref=e582]: Other Resources
+        - listitem [ref=e583]:
+          - link "Help" [ref=e584] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages
+        - listitem [ref=e585]:
+          - link "Community" [ref=e586] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/duckduckgo/
+        - listitem [ref=e587]:
+          - link "Careers" [ref=e588] [cursor=pointer]:
+            - /url: /careers
+        - listitem [ref=e589]:
+          - link "Privacy Policy" [ref=e590] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=e591]:
+          - link "Terms of Service" [ref=e592] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=e593]:
+          - link "Press Kit" [ref=e594] [cursor=pointer]:
+            - /url: /press
+        - listitem [ref=e595]:
+          - link "Advertise on Search" [ref=e596] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+  - generic [ref=e602]:
+    - generic [ref=e618]:
+      - heading "Get Our Windows Browser" [level=3] [ref=e619]
+      - paragraph [ref=e620]: Protect your data as you search, browse, and use AI.
+    - link "Download" [ref=e621] [cursor=pointer]:
+      - /url: https://duckduckgo.com/windows?origin=funnel_browser_searchresults__footercard
+  - button "Share Feedback" [ref=e628] [cursor=pointer]

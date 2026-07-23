@@ -1,0 +1,15 @@
+[    1016ms] [WARNING] fun-hooks: referenced 'firstPartyData' but it was never created @ https://www.accuweather.com/tags/shared/tripleliftBidAdapter-854d93c7.js:16
+[    1017ms] [WARNING] fun-hooks: referenced 'paapi' but it was never created @ https://www.accuweather.com/tags/shared/tripleliftBidAdapter-854d93c7.js:16
+[    2663ms] [ERROR] Exception in queued GPT command TypeError: Cannot read properties of undefined (reading 'then')
+    at https://www.accuweather.com/tags/common/body/ad-script-aa0dd9b8.js:1:7080
+    at Uw.push (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607160101/pubads_impl.js:19:460275)
+    at Uw.<anonymous> (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607160101/pubads_impl.js:19:104685)
+    at Vw (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607160101/pubads_impl.js:19:148535)
+    at wF.j (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607160101/pubads_impl.js:19:638572)
+    at yF (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607160101/pubads_impl.js:19:211010)
+    at AF.next (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607160101/pubads_impl.js:19:211304)
+    at https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607160101/pubads_impl.js:19:211718
+    at new Promise (<anonymous>)
+    at BF (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607160101/pubads_impl.js:19:211603) @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607160101/pubads_impl.js:18
+[    2665ms] [ERROR] [GPT] Exception in googletag.cmd function: TypeError: Cannot read properties of undefined (reading 'then').
+https://goo.gle/gpt-message#30 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607160101/pubads_impl.js:18
